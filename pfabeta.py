@@ -11,7 +11,7 @@ from cvzone.HandTrackingModule import HandDetector
 cred = credentials.Certificate("ss.json")
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(
-    cred, {"databaseURL": "https://esp32-e9773-default-rtdb.firebaseio.com/"}
+    cred, {"databaseURL": "DATABASEURL"}
 )
 
 # Save data
