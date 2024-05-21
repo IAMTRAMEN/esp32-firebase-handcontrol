@@ -2,13 +2,13 @@
 
 #include <IOXhop_FirebaseESP32.h>                                             // firebase library
 
-#define FIREBASE_HOST "https://esp32-e9773-default-rtdb.firebaseio.com/"                         // the project name address from firebase id
+#define FIREBASE_HOST "DATABASE_URL"                         // the project name address from firebase id
 
-#define FIREBASE_AUTH "AIzaSyDbFqtzvVFdNDWWjI9WlSCXHhtTl1km_9M"                    // the secret key generated from firebase
+#define FIREBASE_AUTH "API_Key"                    // the secret key generated from firebase
 
-#define WIFI_SSID "TOPNET_BLYT"                                          // input your home or public wifi name
+#define WIFI_SSID ""                                          // input your home or public wifi name
 
-#define WIFI_PASSWORD "hvjzoaqr01"                                    //password of wifi ssid
+#define WIFI_PASSWORD ""                                    //password of wifi ssid
 
 String fireStatus = "";                                                     // led status received from firebase                                                              
 
